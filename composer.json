@@ -1,0 +1,14 @@
+{
+  "name": "tu-usuario/sistema-tiendas-telegram",
+  "description": "Sistema de Gestion de Tiendas en Telegram en PHP",
+  "require": {
+    "php": "^7.4 || ^8.0",
+    "ext-pdo": "*"
+  },
+  "autoload": {
+    "files": [
+      "db_connection.php",
+      "telegram_bot_manager.php"
+    ]
+  }
+}
